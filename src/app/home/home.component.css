@@ -1,0 +1,42 @@
+.text{
+    text-align: center;
+    position: absolute;
+    color: white;
+    margin-top: -45%;
+    margin-left: 10%;
+    @media (max-width: 800px) {
+        font-size: 100%;
+        margin-top: -40%;
+    
+      }
+}
+.im{
+    width: 100%;
+    height: 70%;
+}
+.t{
+ font-size: 70px;
+ @media (max-width: 800px) {
+    font-size: 100%;
+    margin-top: -30%;
+
+  }
+}
+.ss{
+    text-align: center;
+    margin-top: 7%;
+    margin-bottom: 5px;
+  
+}
+.xx{
+    margin-top: 7%;
+    margin-left: 8%;
+}
+.text1{
+    color: white;
+    padding: 5% 5%;
+}
+.w{
+    text-align: center;
+    padding: 8% 8%;
+}

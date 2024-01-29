@@ -1,0 +1,12 @@
+    .example-spacer {
+        flex: 1 1 auto;
+    }
+  .valign-center{
+    margin-top: -40%;  
+  }
+  button{
+    margin-left: 85%;
+    @media (max-width: 800px) {
+     display: none;
+    }
+  }

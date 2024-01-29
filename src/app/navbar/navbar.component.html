@@ -1,0 +1,16 @@
+<div class="container-fluid">
+  <mat-toolbar>
+    <img routerLink="" src="assets/img/nifi.png" height="50" alt="" class="l" />
+    <button mat-icon-button class="example-icon" aria-label="Example icon-button with menu icon" [matMenuTriggerFor]="animals">
+      <mat-icon color="primary" class="valign-center">menu</mat-icon>
+    </button>
+    <mat-menu #animals="matMenu">
+      <span style="width: 250px; padding: 5% 5%;" mat-menu-item routerLink="">HOME</span>
+      <span mat-menu-item routerLink="/about">ABOUT</span>
+      <span mat-menu-item routerLink="/product">PRODUCTS</span>
+      <span mat-menu-item routerLink="/career">CAREERS</span>
+      <span mat-menu-item routerLink="/privacy">PRIVACY</span>
+      <span mat-menu-item routerLink="/contact">CONTACTS </span>
+    </mat-menu>
+  </mat-toolbar>
+</div>

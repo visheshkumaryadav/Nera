@@ -1,0 +1,52 @@
+.text{
+    text-align: center;
+    position: absolute;
+    color: white;
+    margin-top: -45%;
+    margin-left: 10%;
+    @media (max-width: 800px) {
+        font-size: 100%;
+        margin-top: -40%;
+    
+      }
+}
+.im{
+    width: 100%;
+    height: 70%;
+}
+.t{
+ font-size: 100px;
+ @media (max-width: 800px) {
+    font-size: 100%;
+    margin-top: -30%;
+
+  }
+}
+.card{
+  padding: 2% 2%;
+  background-color: rgb(249, 249, 248);
+  border-radius: 1%;
+}
+mat-card{
+  padding: 1% 1%;
+  text-align: center;
+  border-radius: 5%;
+}
+.a{
+  background-color: rgb(249, 249, 248);
+}
+.a1{
+  color: white;
+  background-color: blue;
+}
+.d{
+  text-align: center;
+  /* margin-left: 24.50%; */
+}
+.QQ{
+  @media (max-width: 800px) {
+    font-size: 100%;
+    margin-top: -10%;
+
+  }
+}
